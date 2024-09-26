@@ -1,0 +1,123 @@
+// src/styles/guide.scss
+
+.guide {
+    margin: 20px;
+    .pdf-link{
+      margin: 15px  15px;
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    h1 {
+      text-align: center;
+      font-size: 2.5em;
+      margin-bottom: 30px;
+    }
+  
+    .guide-content {
+      .section {
+        margin-bottom: 20px;
+        padding-left: 15px;
+        border-left: 2px solid #ccc;
+  
+        &.level-1 {
+          border-color: #3498db;
+        }
+  
+        &.level-2 {
+          border-color: #2ecc71;
+        }
+  
+        &.level-3 {
+          border-color: #e67e22;
+        }
+  
+        .section-header {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+  
+          h2, h3, h4, h5, h6 {
+            margin: 0;
+            color: #333;
+          }
+  
+          button {
+            background: none;
+            border: none;
+            color: #3498db;
+            cursor: pointer;
+            font-size: 1em;
+            display: flex;
+            align-items: center;
+  
+            &:hover {
+              color: #2980b9;
+            }
+  
+            svg {
+              margin-right: 5px;
+            }
+          }
+        }
+  
+        p {
+          font-size: 1em;
+          color: #555;
+        }
+  
+        .details {
+          margin-top: 10px;
+          padding-left: 15px;
+          border-left: 2px solid #3498db;
+  
+          p {
+            color: #444;
+          }
+        }
+  
+        .subsections {
+          margin-top: 15px;
+        }
+      }
+    }
+  }
+  
+  /* src/styles/Guide.scss */
+
+/* Styles pour le bouton */
+.explanation-button {
+  margin: 0 auto;
+
+
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+   
+
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+}
+
+/* Styles pour le contenu de l'explication */
+.pdf-explanation {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-left: 4px solid #007bff;
+  
+
+
+  p {
+    margin: 0 auto;
+    font-size: 1em;
+    line-height: 1.5;
+  }
+}

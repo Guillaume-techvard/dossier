@@ -1,0 +1,11 @@
+// src/styles/main.scss
+@import 'variables';
+@import 'navbar';
+@import 'guide';
+@import 'home';
+
+* {
+  margin: 0;
+  font-family: $font-stack;
+  list-style: none;
+}
